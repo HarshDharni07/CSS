@@ -7,43 +7,62 @@
     <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-           <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Portfolio</h2>
-           <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Skills</li>
-            <li>Contact Us</li>
-           </ul>
-           <button>Subscribe</button>
-        </nav>
-    </header>
     <main>
         <section class="intro">
-            <div class="into-background"></div>
-            <div class="intro-text">
-                <p>Hello, my name is <span>Tahmid <span class="highlight">Ahmed</span></span></p>
-                <p>I'm a Web Developer.</p>
-                <form action="#">
-                    <input type="email" placeholder="Enter Your Email">
-                    <button type="submit">Let's Join</button>
-                </form>
+            <header>
+                <nav>
+                   <h2>Portfo<span>lio</span></h2>
+                   <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                   <button>Subscribe</button>
+                </nav>
+            </header>
+            
+            <div class="intro-background">
+                <!-- <img src="../resources/img1_1920.png"> -->
             </div>
+            <div class="intro-box">
+
+                <div class="intro-text">
+                    <p>Hello, my name is <br> <span>Tahmid <span class="highlight">Ahmed</span></span></p>
+                    <p class="p2">I'm a Web Developer.</p>
+                </div>
+                <div class="intro-button">
+                    <form class="form">
+                        <input type="email" placeholder="Enter Your Email">
+                        <button type="submit">Let's Join</button>
+                    </form>
+                </div>
+
+            </div>
+           
         </section>
 
         <section class="about">
-            <div class="about-img">
-                <img src="#" alt=" Image Not Loading">
-            </div>    
-            <div class="about-text">
-                <h1>About Me</h1>
-                <h3>Developer & <span class="highlight">Designer</span></h3>
-                <p>
-                    I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device.
-                </p>
-                <button>Let's Talk</button>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="../resources/about-8.jpg" alt=" Image Not Loading">
+                </div>    
+                <div class="about-text">
+                    <h1>About Me</h1>
+                    <h3>Developer <span class="highlight">& Designer</span></h3>
+                    <p>
+                        I am a front-end web developer. I can provide clean code <br>
+                        and pixel perfect design. I also make the website more & <br>
+                        more interactive with web animations. I can provide clean<br>
+                        code and pixel perfect design. I also make the website more<br>
+                        & more interactive with web animations. A responsive design <br>
+                        makes your website accessible to all users, regardless of <br>
+                        their device.
+                    </p>
+                    <button>Let's Talk</button>
+                </div>
+                
             </div>
         </section>
 
@@ -85,18 +104,21 @@
             <h2>Let Me Get You A Beautiful Website.</h2>
             <button>Hire Me</button>
         </section>
+
+        <footer>
+            <p>Tahmid Ahmed</p>
+            <p>For more HTML, CSS, and coding tutorials - please click on the link below to subscribe to my channel.</p>
+            <div class="social-icons">
+                <a href="#"><img src="social-icon-url-1.png" alt="Facebook Icon"></a>
+                <a href="#"><img src="social-icon-url-2.png" alt="Twitter Icon"></a>
+                <a href="#"><img src="social-icon-url-3.png" alt="Instagram Icon"></a>
+            </div>
+            <p>Copyright © by Tahmid Ahmed</p>
+        </footer>
+
     </main>
 
-    <footer>
-        <p>Tahmid Ahmed</p>
-        <p>For more HTML, CSS, and coding tutorials - please click on the link below to subscribe to my channel.</p>
-        <div class="social-icons">
-            <a href="#"><img src="social-icon-url-1.png" alt="Facebook Icon"></a>
-            <a href="#"><img src="social-icon-url-2.png" alt="Twitter Icon"></a>
-            <a href="#"><img src="social-icon-url-3.png" alt="Instagram Icon"></a>
-        </div>
-        <p>Copyright © by Tahmid Ahmed</p>
-    </footer>
+    
     
 </body>
 </html>
